@@ -60,7 +60,7 @@ def move():
     boardHeight = data['board']['height']
     area = boardWidth * boardHeight
 
-    return 'up'
+    return 'right'
 
 
 @bottle.post('/end')
